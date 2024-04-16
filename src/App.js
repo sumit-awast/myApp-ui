@@ -1,13 +1,8 @@
-import './App.css';
+import React from 'react';
+import HelloWorld from './components/HelloWorld';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-      <p>Hi Sumit Awasthi Lets Learn React and write the unit test case also.</p>
-      </header>
-    </div>
-  );
+  return(<HelloWorld/>);
 }
 
 export default App;
